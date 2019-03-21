@@ -1,0 +1,78 @@
+
+@font-face {
+  font-family: Blacklisted;
+  src: url("../Blacklisted.ttf");
+}
+
+
+body {
+  text-align: center;
+  font-family: Blacklisted;
+  color: red;
+  font-size: 40px;
+  background-image: url("../images/SpaceBG.gif");
+  background-size: 100%;
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  -webkit-text-stroke-width: 0.02px;
+  -webkit-text-stroke-color: white;
+  color: red;
+}
+div {
+  color: white;
+  font-size: 30px;
+  -webkit-text-stroke-width: 0.05px;
+  -webkit-text-stroke-color: black;
+}
+img {
+  width: 80%;
+  height: 20%;
+  margin-bottom: -10px;
+  margin-top: -10px;
+}
+h2 {
+  margin-bottom: 25px;
+}
+
+div:hover {
+  color: red;
+}
+
+
+
+#middle {
+  float: center;
+  width: 60%;
+  height: 300px;
+  margin-left: 20%;
+}
+
+#time {
+  margin-top: 300px;
+  font-size: 150px;
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: black;
+}
+#time:hover {
+  background-color: rgba(255,0,0,0.3);
+  background-size: cover;
+  color: black;
+
+}
+
+#minutes {
+  -webkit-text-stroke-width: 0.05px;
+  -webkit-text-stroke-color: black;
+}
+#seconds {
+  -webkit-text-stroke-width: 0.05px;
+  -webkit-text-stroke-color: black;
+}
+#currenttime {
+  color: black;
+  -webkit-text-stroke-width: 0.01px;
+  -webkit-text-stroke-color: white;
+}
